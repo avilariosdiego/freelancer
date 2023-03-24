@@ -11505,3 +11505,40 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #343a40 !important;
 }
+
+/*WhatsApp*/
+.whatsapp {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  background: #343a40;
+  line-height: 60px;
+  border-radius: 50px;
+  z-index: 999;
+  opacity: 0.7;
+  transition: 1s;
+}
+
+.whatsapp:focus, .whatsapp:hover {
+  color: #fff;
+  background-color: #007bff !important;
+  -webkit-transition: all 1s ease 0s !important;
+  transition: all 1s ease 0s !important;
+  opacity: 1 !important;
+}
+
+/*colombia*/
+.colombia {
+  position: fixed;
+  right: 10px;
+  bottom: 80px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  z-index: 999;
+}
